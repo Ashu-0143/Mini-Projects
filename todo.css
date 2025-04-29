@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="todo.css" type="text/css" media="all">
+* {
+  color: red;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  background-color: rgb(0, 0, 0);
+}
+
+button {
+  overflow: hidden;
+  float: center;
+  justify-content: center;
+
+}
+
+li {
+  color: lawngreen;
+}
+
+h1 {
+  color: lawngreen;
+  text-align: center;
+}
+
+#buttonDiv {
+  position: fixed;
+  bottom: 1px;
+  right: 1pc;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+#inpTask {
+  color: green;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid lawngreen;
+  border-bottom: 1px solid lawngreen;
+  border-left: 1px solid lawngreen;
+  border-right: 1px solid lawngreen;
+}
+
+#outerDiv {
+  background-color: rgba(255, 0, 0, 0.9);
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+#innerDiv {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 0.5px;
+  padding-right: 0.5px;
+}
+
+button,
+input {
+  border: 1px solid grey;
+  border-radius: 2px;
+}
