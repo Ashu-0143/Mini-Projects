@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marks</title>
+  <link rel="stylesheet" href="marks.css">
+
+</head>
+<body id="abc">
+  <script>
+    function myF(){
+      document.getElementById("i").style.backgroundColor="rgba(60,200,40,1)";
+      document.getElementById("abc").style.backgroundColor="rgba(60,150,40,1.5)";
+    }
+    function MyL() {
+      document.getElementById("i").style.backgroundColor = "rgba(70,10,150,4)";
+      document.getElementById("abc").style.backgroundColor="rgba(70,10,130,3)";
+    }
+    function hide() {
+      var htable=document.getElementById("tablez");
+      if(htable.style.display=="none") {
+        htable.style.display="block";
+      } else{
+        htable.style.display="none";
+      }
+    }
+    function sem3res(){
+      var hhtable=document.getElementsByClassName("tabs");
+      for(var j=0;j<hhtable.length;j++){
+        if(hhtable[j].style.display==="none") {
+          hhtable[j].style.display="block";
+        } else{
+          hhtable[j].style.display="none";
+        }
+      }
+    }
+  </script>
+  <h1 style="color:black;text-align:center;font-family:Verdana;background-color:rgba(0,0,0,0.2);padding-top:3;"> Binners lobby </h1>
+  <ul id="NavMain">
+    <li class="navList"> 
+    <button onClick="firF()" id="firLove">♡</button></li>
+    <li class="navList"><a href="home.html">Home</a></li>
+    <li class="navList"><a class="navList" href="marks.html">Marks</a></li>
+    <li class="navList"><a href="gal.html">Gallery</a></li>
+    <li class="navList"><a href="about.html">About us</a></li>
+    <li class="navList"><a href="ntg.html">Nothin</a></li>
+    
+    <li class="navList" > 
+    <button type="button" onClick="secF()" id="secLove">♡</button></button>
+        </li>
+  </ul>
+  <ul id="uul">
+    <li>
+      <h3 onclick="hide()"> Mid Results of 3rd Semister </h3>
+      <div id="tablez" style="display:none;">
+        <table style="width:100%;" id="Raji">
+          <caption><b>Raghavendra </b></caption>
+          <tr><th style="width:40%">SubjectName</th><th>Mid 1</th><th>Mid 2</th></tr>
+          <tr><th>Mathematics </th><td>20</td><td>19</td></tr>
+          <tr><th>Digital Electronics</th><td>20</td><td>20</td></tr>
+          <tr><th>Operating System</th><td>20</td><td>20</td></tr>
+          <tr><th>Data Structure</th><td>20</td><td>20</td></tr>
+          <tr><th>Dbms</th><td>16</td><td>20</td></tr>
+        </table>
+        <br>
+        <table style="width:100%;" id="Varun">
+          <caption><b>Varun </b></caption>
+          <tr class="VR"><th style="width:40%">SubjectName</th><th>Mid 1</th><th>Mid 2</th></tr>
+          <tr class="VR"><th>Mathematics </th><td>20</td><td>20</td></tr>
+          <tr class="VR"><th>Digital Electronics</th><td>20</td><td>20</td></tr>
+          <tr class="VR"><th>Operating System</th><td>20</td><td>20</td></tr>
+          <tr class="VR"><th>Data Structure</th><td>20</td><td>20</td></tr>
+          <tr class="VR"><th>Dbms</th><td>19</td><td>20</td></tr>
+        </table>
+        <br>
+        <table style="width:100%;" id="Mohan">
+          <caption><b>Mohan </b></caption>
+          <tr><th style="width:40%">SubjectName</th><th>Mid 1</th><th>Mid 2</th></tr>
+          <tr><th>Mathematics </th><td>20</td><td>20</td></tr>
+          <tr><th>Digital Electronics</th><td>18</td><td>18</td></tr>
+          <tr><th>Operating System</th><td>20</td><td>19</td></tr>
+          <tr><th>Data Structure</th><td>20</td><td>20</td></tr>
+          <tr><th>Dbms</th><td>19</td><td>20</td></tr>
+        </table>
+        <br>
+        <table style="width:100%;" id="Ashok">
+          <caption><b>Ashok </b></caption>
+          <tr><th style="width:40%">SubjectName</th><th>Mid 1</th><th>Mid 2</th></tr>
+          <tr><th>Mathematics </th><td>20</td><td>19</td></tr>
+          <tr><th>Digital Electronics</th><td>20</td><td>20</td></tr>
+          <tr><th>Operating System</th><td>20</td><td>20</td></tr>
+          <tr><th>Data Structure</th><td>20</td><td>20</td></tr>
+          <tr><th>Dbms</th><td>15</td><td>20</td></tr>
+        </table>
+        <br>
+      </div>
+    </li>
+    <li>
+      <h3 onclick="sem3res()"> Results of 3rd Semister </h3>
+      <table height="500px" style="display:none;" class="tabs">
+        <caption ><b>Ashok</b></caption>
+        <tr>
+          <th >Subject</th>
+          <th width="20%">Ext</th>
+          <th width="20%">Int</th>
+          <th width="30%">Total</th>
+        </tr>
+        <tr>
+          <td class="sem3Sub">Mathematics</td>
+          <td>71</td>
+          <td>20</td>
+          <td>91</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub">Digital Electronics</td>
+          <td>76</td>
+          <td>20</td>
+          <td>96</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub">Operating Systems</td>
+          <td>78</td>
+          <td>20</td>
+          <td>98</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub">Data Structures</td>
+          <td>55</td>
+          <td>20</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub">DBMS</td>
+          <td>64</td>
+          <td>18</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub">DE Lab</td>
+          <td>60</td>
+          <td>40</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub">DS Lab</td>
+          <td>60</td>
+          <td>40</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub">DBMS Lab</td>
+          <td>60</td>
+          <td>40</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub">MM Lab</td>
+          <td>60</td>
+          <td>40</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td class="sem3Sub" style="color:rgb(0,180,240);">Total</td>
+          <td colspan="3" justify-content="right"><b>842</b></td>
+        </tr>
+      </table>
+    </li>
+  </ul>
+</body>
+</html>

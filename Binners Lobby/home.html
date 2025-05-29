@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="90">    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body id="body" >
+
+  <script>
+  
+   function firF(){
+      
+      document.getElementById("NavMain").style.backgroundColor="pink";
+      var rep=document.getElementById("replace").value;
+      document.getElementById("body").style.backgroundColor="aqua";
+      document.getElementById("binner").style.color="white"; 
+     var x= document.getElementsByClassName("navList");
+     for(var i=0;i<x.length;i++){
+     x[i].style.backgroundColor="pink";
+      var j=Math.random();
+      document.write.innerHTML="j";
+     }
+    }
+    function secF() {
+    
+      document.getElementById("i").style.backgroundColor = "rgba(70,10,150,4)";
+       document.getElementById("abc").style.backgroundColor="rgba(70,10,130,3)";
+      
+    }
+    function f() {
+      
+      var hiddenElements = document.getElementsByClassName("Hide");
+      
+      for (var i = 0; i < hiddenElements.length; i++) {
+        if (hiddenElements[i].style.display === "none") {
+          hiddenElements[i].style.display = "block";
+        } else {
+          hiddenElements[i].style.display = "none";
+        }
+      }
+      
+    }
+  </script>
+  <h1 style="color:black;text-align:center;font-family:Verdana;background-color:rgba(0,0,0,0.2);padding-top:3;" id="binner"> Binners lobby </h1>
+ <ul id="NavMain">
+    <li class="navList"> 
+    <button onClick="firF()" id="firLove">♡</button></li>
+    <li class="navList"><a href="home.html">Home</a></li>
+    <li class="navList"><a href="marks.html">Marks</a></li>
+    <li class="navList"><a href="gal.html">Gallery</a></li>
+    <li class="navList"><a href="about.html">About us</a></li>
+    <li class="navList"><a href="ntg.html">Nothin</a></li>
+    
+    <li class="navList" > 
+    <button type="button" onClick="secF()" id="secLove">♡</button></button>
+        </li>
+  </ul
+  
+  <br><hr>
+  <div class="Hide" onclick="f()">
+  <table id="tt" style="margin:auto;"><caption style="color:white;">TIMETABLE OF 4TH SEM</caption>
+  <tr id="ttt">
+    <th>DAY</th>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td rowspan="7" style="transform:rotate(90deg);font-size:20px;width:0%;">LUNCH</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <th>MON</th>
+    <td>SE</td>
+    <td>JAVA</td>
+    <td>JAVA</td>
+    <td>WT</td>
+    <td>CN</td>
+    <td>CO</td>
+    <td>CO</td>
+  </tr>
+  <tr>
+    <th>TUE</th>
+    <td colspan="4" class="cent">WT lab</td>
+    <td>WT</td>
+    <td>JAVA</td>
+    <td>SE</td>
+  </tr>
+  <tr>
+    <th>WED</th>
+    <td colspan="4" class="cent">JAVA lab</td>
+    <td>JAVA</td>
+    <td>CO</td>
+    <td>SE</td>
+   </tr>
+  <tr>
+    <th>THU</th>
+    <td>WT</td>
+    <td>WT</td>
+    <td>CO</td>
+    <td>SE</td>
+    <td>CO</td>
+    <td>CN</td>
+    <td>CN</td>
+  </tr>
+  <tr>
+    <th>FRI</th>
+    <td>JAVA</td>
+    <td>CN</td>
+    <td>WT</td>
+    <td>WT</td>
+    <td colspan="3" class="cent">CN LAB</td>
+  </tr>
+  <tr>
+    <th>SAT</th>
+<td>CN</td>
+<td>CN</td>
+<td>JAVA</td>
+<td>WT</td>
+<td>SE</td>
+<td>SE</td>
+<td>CO</td>
+</tr>
+</table>
+  
+</div><button onclick="f()" id="hideUnhide" float="center" >Screw You</button>
+  
+  </center>
+<p id="replace">heyylko</p>
+  
+  
+  
+  
+  </body>
+</html>

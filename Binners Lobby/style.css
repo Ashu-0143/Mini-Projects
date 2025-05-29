@@ -1,0 +1,95 @@
+
+body{
+  color:black;
+  background-color:rgb(170.170,170);
+}
+
+.navList
+{
+  float: left;
+  padding-right:7px;
+}
+#NavMain
+{
+  background-color:rgba(0,0,0,0.1);
+  overflow:hidden;
+  list-style-type:none;
+  margin-top:1pc;
+  padding-top:3px;
+  padding-bottom: 3px;
+  border-bottom: 2px dashed rgba(100,100,100,5);
+  border-top: 2px dashed rgba(100,100,100,5);
+  border-radius:3px;
+}
+.navList a,.navList button
+{
+  
+  font-weight: bold;
+  text-decoration:none;
+  display:block;
+  color:black;
+  background-color:rgba(50,50,50,0.2);
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom:2px solid #230;
+  border-top: 0.8px solid  rgba(50,50,50,0.2);
+  border-radius:6px;
+  padding-top: 7px;
+  padding-left:7px;
+  padding-right:7px;
+  padding-bottom:7px;
+}
+
+.total{
+display:grid;
+  border: dashed 2px black;
+  border-radius:0.2pc;
+  grid-template-columns:auto auto auto;
+  padding:10px;
+  float:right;
+  
+    
+}
+.item{
+  text-align:center;
+  background-color:rgba(10,25,20,0.1);
+  padding: 10px;
+  width:50px;
+  height: 50px;
+  border:solid 2px slategrey;
+  color:blue;
+  font-size:32px;
+
+}
+
+
+#tt,th{
+  color: darkred;
+  text-align: center;
+  border: 3px solid black;
+  border-collapse:collapse;
+  
+}
+#tt{ 
+  background-color:rgba(0,230,230,0.4);
+  float: center;
+  font-size:15px;
+  width:90%;
+}
+#ttt,th{
+  color:black;
+}
+.cent{
+  text-align: center;
+  color:Red;
+}
+td,tr{
+  border: 2px solid darkslateblue;
+}
+#hideUnhide{
+ align-content: center;
+  color:Red;
+  border: 3 solid black;
+  border-radius:5px;
+  padding:auto 50% 50% auto;
+}
