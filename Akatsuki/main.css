@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
 
-* {
+*{
  padding: 0;
  margin: 0;
  line-height: 1.5;
@@ -9,7 +9,7 @@
 }
 
 body {
- background-color: hsl(0, 100%, 50%);
+ background-color: white;
  background-image: url("https://cdn.discordapp.com/attachments/873106686859153420/1393595423658217504/the-monster-nine-tailed-fox-1uks5i4fhq6rv4lr_1.webp?ex=68750fe0&is=6873be60&hm=2dec304ba20902cb5d0e9bdb15418ae276df1fb159047618fc6d104cc8d827ce&");
  height: 100vh;
  background-position: center;
