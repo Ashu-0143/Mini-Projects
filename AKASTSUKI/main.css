@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+*{
+   padding:0;
+   margin: 0; 
+   line-height: 1.5; 
+   font-family: 'Poppins', sans-serif;
+   text-align:center;
+  }
+  body{
+    background-color:hsl(0,100%,50%);
+    background-image:url("https://cdn.discordapp.com/attachments/873106686859153420/1393595423658217504/the-monster-nine-tailed-fox-1uks5i4fhq6rv4lr_1.webp?ex=68750fe0&is=6873be60&hm=2dec304ba20902cb5d0e9bdb15418ae276df1fb159047618fc6d104cc8d827ce&");
+  height: 100vh;
+    background-position:center;
+    background-size:cover;
+    
+  }
+  .mid{
+    text-align: center;
+    
+  }
+  #heading{
+    color:orangered;
+    text-align:center;
+    border:2px rgba(0,0,0,0.5) solid;
+    background-color:rgba(0,0,0,0.2);
+    padding:0px 10px;
+    margin-top: 5px;
+  }
+  #akat{
+    color:grey;
+  }
+  #title{
+    color:white;
+    animation-name: title;
+    animation-duration: 5s;
+    animation-direction:reverse;
+    animation-iteration-count: infinite;
+    
+  }
+  #image{
+    width: 90%;
+    height:90%;
+    overflow:hidden;
+    border:3px black solid;
+    border-radius: 25px;
+    
+    padding:0 5px auto 5px;
+  }
+  h3{
+    color: dimgrey;
+    font-size:20px;
+  }
+  #ab{
+    padding:0 10px 0 10px;
+    text-align:center;
+  border:1px solid rgba(200,50,50,0.2);
+  }
+  @keyframes title 
+  {
+    0%{
+      color:green;
+    }  
+    50%{
+      color: orangered;
+    }
+    100%{
+      color:red;
+    }
+  }
