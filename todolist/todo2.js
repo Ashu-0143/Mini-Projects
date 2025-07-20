@@ -6,14 +6,14 @@ $(document).ready(function() {
     }
     event.preventDefault(event);
     $("#mainList").append("<li>" + x + "</li>").attr("class", "hi");
-
+    
     $("li").on("dblclick", function() {
       $(this).hide("slow").fadeTo("slow", 0.3).slideUp("slow");
     });
     
     $("#inpTask").val("");
   });
-
+  
   $("#clearButton").click(function() {
     if ($("#mainList li").length === 0) {
       alert("List is already empty");
