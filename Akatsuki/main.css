@@ -10,16 +10,11 @@
 
 body {
  background-color: white;
- background-image: url("https://cdn.discordapp.com/attachments/873106686859153420/1393595423658217504/the-monster-nine-tailed-fox-1uks5i4fhq6rv4lr_1.webp?ex=68750fe0&is=6873be60&hm=2dec304ba20902cb5d0e9bdb15418ae276df1fb159047618fc6d104cc8d827ce&");
+ background-image: url("static/back.jpg");
  height: 100vh;
  background-position: center;
  background-size: cover;
- 
-}
-
-.mid {
- text-align: center;
- 
+ background-repeat: no-repeat;
 }
 
 #heading {
@@ -32,10 +27,13 @@ body {
 }
 
 #akat {
- color: grey;
+ 
+ color: #FFFFFF;
 }
 
 #title {
+ font-size:25px;
+ 
  color: white;
  animation-name: title;
  animation-duration: 5s;
@@ -45,37 +43,41 @@ body {
 }
 
 #image {
- width: 90%;
- height: 90%;
+ width: 35%;
+ height: 35%;
  overflow: hidden;
  border: 3px black solid;
  border-radius: 25px;
- 
  padding: 0 5px auto 5px;
+ opacity: 0;
 }
 
 h3 {
- color: dimgrey;
+ color:#FFFFFF;
  font-size: 20px;
 }
 
 #ab {
  padding: 0 10px 0 10px;
  text-align: center;
+ color:white;
  border: 1px solid rgba(200, 50, 50, 0.2);
 }
 
 @keyframes title {
  0% {
-  color: green;
+  color:black;
  }
- 
+ 30%{
+  color:#F4F5FF;
+ }
  50% {
-  color: orangered;
+  color: #32FF00;
  }
- 
+ 70%{
+  color: #00FFF9;
+ }
  100% {
-  
-  color: red;
+  color:#FFFE00;
  }
 }
