@@ -28,10 +28,12 @@ img{
   
 }
 .info{
+  
   font-weight:bold;
   font-family:cursive;
+  font-size: 20px;
   }
 .username{
-  
+
   color:#FF0000;
 }

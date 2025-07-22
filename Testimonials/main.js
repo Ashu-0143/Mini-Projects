@@ -1,32 +1,42 @@
 const persons = [
 {
-  name: "Raghavendhra@21",
-  img: "static/img1",
-  txt: "I really love to be here ! , Thank you",
+  name: "Mark, patron",
+  img: "static/img1.jpg",
+  txt: "The library's online renewal system is so convenient. I can renew my books without having to visit the library.",
 },
 {
-  name: "Mike@009",
-  img: "static/img1",
-  txt: "Great luck to you as you are looking at my face right now , Thank you",
+  name: "David, researcher",
+  img: "static/img3.jpg",
+  txt: "The library's digital resources have been a lifesaver for my research projects. Thank you!",
 },
 {
-  name: "Shyam@091",
-  img: "static/img2",
-  txt: "I appreciate myself and love to be here as a Unique guy over you all ! , Thank you",
-}];
-const us= document.querySelector(".username");
-const i = document.querySelector("img");
-const t = document.querySelector(".info");
+  name: "Sarah, librarian",
+  img: "static/img4.jpg",
+  txt: "I've never had any issues with the library's website. It's always up and running smoothly",
+},
+{
+  name: "Emily, student",
+  img: "static/img2.jpg",
+  txt: "The online catalog is so easy to use! I can find books and reserve them in minutes."
+}
+];
+const title= document.querySelector(".username");
+const face = document.querySelector("img");
+const info = document.querySelector("p");
 
 let iteration = 0;
 
 changePage();
 
 function changePage() {
-  const { nme, imz, taxt } = persons[iteration];
-  i.src = imz;
-  t.innerText = taxt;
-  us.innerText = nme;
+  const {nme=persons[iteration].name,
+        taxt=persons[iteration].txt,
+        imz=persons[iteration].img}
+        = persons[iteration];
+  
+  face.src = imz;
+  info.innerText = taxt;
+  title.innerText = nme;
   iteration++;
   if (iteration === persons.length) {
     iteration = 0;
